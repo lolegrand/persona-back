@@ -1,0 +1,23 @@
+### Créé un persona
+POST http://0.0.0.0:8080/persona
+Content-Type: application/x-www-form-urlencoded
+
+firstname = firstname &
+lastname = lastname &
+email = email &
+phone = phone &
+mobile = mobile &
+street = street &
+city = city &
+state = state &
+country = country &
+latitude = latitude &
+longitude = longitude &
+dateOfBirth = dateOfBirth &
+thumbnail = thumbnail
+
+### Liste les personas
+GET http://0.0.0.0:8080/persona
+
+### Supprime un persona
+DELETE http://0.0.0.0:8080/persona/5d7c7548-358b-4b78-bfc8-ad39644b5420
